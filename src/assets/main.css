@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Story+Script&display=swap');
 @import 'tailwindcss';
-@plugin 'daisyui';
+@plugin "daisyui";
+
+
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+
+}
+
+.crazyBox{
+
+    border-radius: 3em;
+    border: solid 1px orange;
+    box-shadow: orangered 0px 0px 30px, orange 0px 0px 50px, rgb(255, 173, 19) 0px 0px 70px;
+    transition: all 0.5s ease;
+}
+
+.crazyBox:hover{
+
+    box-shadow: orangered 0px 0px 60px, orangered 0px 0px 80px, rgb(255, 173, 19) 0px 0px 100px;
+    border: solid 1px orangered;
+
+}
+
+.dexBtn{
+    color: white;
+    font-weight: 500;
+    padding: 7px;
+    border-radius: 1em;
+    background: linear-gradient(180deg, orange, orangered);
+    
+}
+
+.dexBtn:active{
+
+    background: linear-gradient(180deg, orange, orange);
+    
+}
 
 
