@@ -4,7 +4,8 @@ import MyFooter from './components/MyFooter.vue';
 </script>
 
 <template>
-  <RouterLink to="/"></RouterLink>
+  <RouterLink to="/"/>
+  <RouterLink to="/dex"/>
   
   
   <RouterView />
