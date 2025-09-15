@@ -1,4 +1,5 @@
 <template>
+  
   <div class="flex justify-center items-center bgHome h-screen">
     <div class="bg-white flex w-100 h-100 justify-center items-center crazyBox flex-col">
       <h1 class="bungee-spice-regular text-center">Let's discover the world of Pokemon</h1>
