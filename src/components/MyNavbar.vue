@@ -1,10 +1,11 @@
 <template>
   <nav>
     <div class="navbar bg-base-100 shadow-sm">
-      <div class="flex-1">
+      <div class="flex-1 flex items-center">
         <a class="btn btn-ghost text-xl"
           ><Icon @click="returnHome" class="w-10 h-10" icon="majesticons:home"></Icon
         ></a>
+        <h2 class="ml-20 text-2xl rubik-bubbles-regular">POKEDEX</h2>
       </div>
       <div class="flex gap-2">
         <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
@@ -17,19 +18,6 @@
               />
             </div>
           </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-          >
-            <li>
-              <a class="justify-between">
-                Profile
-                <span class="badge">New</span>
-              </a>
-            </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
-          </ul>
         </div>
       </div>
     </div>
