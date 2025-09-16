@@ -44,5 +44,3 @@ Con questa app puoi avere un Pokédex virtuale direttamente nel tuo browser! �
 
 ---
 
-## 📂 Struttura del progetto
-
