@@ -15,6 +15,7 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
+import PokeDescription from '@/views/PokeDescription.vue';
 
 const img = ref("");
 
